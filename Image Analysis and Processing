@@ -124,3 +124,34 @@
         <rdfs:label>Image analysis</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Image_analysis"/>
     </owl:Class>
+
+ <!-- http://edamontology.org/operation_Image_processing -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_Image_processing">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_input"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/data_Image"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_output"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/data_Image"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operation_Image_processing</metadata:prefixIRI>
+        <oboInOwl:hasExactSynonym>Image transformation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>Image filtering</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Image post-processing</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Image postprocessing</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Image pre-processing</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Image preprocessing</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>Image manipulation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
+        <oboInOwl:inSubset>edam</oboInOwl:inSubset>
+        <oboInOwl:inSubset>operations</oboInOwl:inSubset>
+        <rdfs:label>Image processing</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Digital_image_processing"/>
+    </owl:Class>
