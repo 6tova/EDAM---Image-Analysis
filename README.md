@@ -1,1 +1,1 @@
-# EDAM---Image-Analysis
+# EDAM-
