@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://edamontology.org/EDAM-bioimaging#"
+     xml:base="http://edamontology.org/EDAM-bioimaging"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:edam="http://purl.obolibrary.org/obo/edam#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:metadata="http://data.bioontology.org/metadata/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:edamontology="http://edamontology.org/">
+    <owl:Ontology rdf:about="http://edamontology.org/EDAM-bioimaging">
+        <owl:versionIRI rdf:resource="http://edamontology.org/EDAM-bioimaging_1.0alpha_pre-pre-release-20251026T0104Z"/>
+        <edamontology:citation rdf:resource="https://doi.org/10.7490/f1000research.1117826.1"/>
+        <edamontology:next_id>!NB.:NO_STABLE_IDS-YET! Expected end Oct-Nov 2025</edamontology:next_id>
+        <edamontology:repository rdf:resource="https://github.com/edamontology/edam-bioimaging"/>
+        <obo:date>26.10.2025 01:04 UTC</obo:date>
+        <obo:default-relationship-id-prefix>EDAM</obo:default-relationship-id-prefix>
+        <obo:idspace>EDAM http://edamontology.org/ &quot;EDAM relations and concept properties&quot;</obo:idspace>
+        <obo:idspace>EDAM_data http://edamontology.org/data_ &quot;EDAM types of data&quot;</obo:idspace>
+        <obo:idspace>EDAM_format http://edamontology.org/format_ &quot;EDAM data formats&quot;</obo:idspace>
+        <obo:idspace>EDAM_operation http://edamontology.org/operation_ &quot;EDAM operations&quot;</obo:idspace>
+        <obo:idspace>EDAM_topic http://edamontology.org/topic_ &quot;EDAM topics&quot;</obo:idspace>
+        <obo:remark>EDAM Bioimaging is an extension to the EDAM ontology (edamontology.org) dedicated to imaging and (bio)image informatics. It has been developed by an open, global community of contributors, including consortia and projects such as NEUBIAS/GloBIAS, COMULIS, ELIXIR, Euro-BioImaging, vEM, QUAREP-LiMi, foundingGIDE, EOSC OSCARS, and more.</obo:remark>
+        <obo:remark>October 2025: EDAM Bioimaging is in the stage of final refinements towards the first full production version. The production version will include persistent, resolvable identifiers for all concepts; a merged version with the main EDAM; and coverage of microscopy across bio- and other sciences (e.g. materials science and solid-state physics, chemistry, geology, archaeology, cultural heritage), and both clinical and preclinical medical imaging. Further additions and refinements are planned after the production release.</obo:remark>
+        <dc:contributor>Aaron Ponti</dc:contributor>
+        <dc:contributor>Alban Gaignard</dc:contributor>
+        <dc:contributor>Alexandre Dufour</dc:contributor>
+        <dc:contributor>Chong Zhang</dc:contributor>
+        <dc:contributor>Daniel Sage</dc:contributor>
+        <dc:contributor>David Hörl</dc:contributor>
+        <dc:contributor>David Rousseau</dc:contributor>
+        <dc:contributor>Dominic Waithe</dc:contributor>
+        <dc:contributor>Estibaliz Gómez de Mariscal</dc:contributor>
+        <dc:contributor>Fabienne Rössler</dc:contributor>
+        <dc:contributor>Florian Levet</dc:contributor>
+        <dc:contributor>Gabriella Rustici</dc:contributor>
+        <dc:contributor>Ivana Vrhovac Madunić</dc:contributor>
+        <dc:contributor>Jean-Baptiste Sibarita</dc:contributor>
+        <dc:contributor>Jeremy Pike</dc:contributor>
+        <dc:contributor>John Bogovic</dc:contributor>
+        <dc:contributor>Joshua Moore</dc:contributor>
+        <dc:contributor>Julien Colombelli</dc:contributor>
+        <dc:contributor>Kota Miura</dc:contributor>
+        <dc:contributor>Lassi Paavolainen</dc:contributor>
+        <dc:contributor>Laura Nicolás Sáenz</dc:contributor>
+        <dc:contributor>Leandro Scholz</dc:contributor>
+        <dc:contributor>Marie-Charlotte Domart</dc:contributor>
+        <dc:contributor>María Arrate Muñoz-Barrutia</dc:contributor>
+        <dc:contributor>Matthia Karreman</dc:contributor>
+        <dc:contributor>NEUBIAS &quot;taggers&quot; and members of NEUBIAS WG4 lead by Perrine Paul-Gilloteaux and WG5 lead by Sébastien Tosi</dc:contributor>
+        <dc:contributor>Nataša Sladoje-Matić</dc:contributor>
+        <dc:contributor>Ofra Golani</dc:contributor>
+        <dc:contributor>Paula Sampaio</dc:contributor>
+        <dc:contributor>Perrine Paul-Gilloteaux</dc:contributor>
+        <dc:contributor>Petter Ranefall</dc:contributor>
+        <dc:contributor>Raf Van de Plas</dc:contributor>
+        <dc:contributor>Robert Haase</dc:contributor>
+        <dc:contributor>Romain Guiet</dc:contributor>
+        <dc:contributor>Sebastian Munck</dc:contributor>
+        <dc:contributor>Xavier Heiligenstein</dc:contributor>
+        <dc:creator>Anatole Chessel</dc:creator>
+        <dc:creator>Hervé Ménager</dc:creator>
+        <dc:creator>Joakim Lindblad</dc:creator>
+        <dc:creator>Jon Ison</dc:creator>
+        <dc:creator>Laure Plantard</dc:creator>
+        <dc:creator>Leandro Aluisio Scholz</dc:creator>
+        <dc:creator>Martin Jones</dc:creator>
+        <dc:creator>Matúš Kalaš</dc:creator>
+        <dc:creator>Moritz Alexander Kirschmann</dc:creator>
+        <dc:creator>Moritz Kirschmann</dc:creator>
+        <dc:creator>Nataša Sladoje</dc:creator>
+        <dc:description>An ontology of imaging and related techniques and technologies, image processing and analysis, image data and formats, within bio- and other sciences.</dc:description>
+        <dc:format>application/rdf+xml</dc:format>
+        <dc:title>EDAM (Bio)imaging ontology</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0"/>
+        <doap:Version>1.0alpha</doap:Version>
+        <oboInOwl:hasSubset>bioimaging &quot;EDAM-bioimaging&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>concept_properties &quot;EDAM concept properties&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>data &quot;EDAM types of data&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>edam &quot;EDAM&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>formats &quot;EDAM data formats&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>identifiers &quot;EDAM types of identifiers&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>operations &quot;EDAM operations&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>relations &quot;EDAM relations&quot;</oboInOwl:hasSubset>
+        <oboInOwl:hasSubset>topics &quot;EDAM topics&quot;</oboInOwl:hasSubset>
+        <oboInOwl:savedBy>Matúš Kalaš</oboInOwl:savedBy>
+        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/EDAM-bioimaging.owl"/>
+        <owl:priorVersion rdf:resource="http://edamontology.org/EDAM-bioimaging_alpha06.owl"/>
+        <owl:versionInfo>1.0alpha_pre-pre-release-20251026T0104Z</owl:versionInfo>
+        <foaf:logo rdf:resource="https://raw.githubusercontent.com/edamontology/edamontology/main/EDAM-logo-square.svg"/>
+        <foaf:page rdf:resource="https://webprotege.stanford.edu/#projects/2ce704bf-83ed-4d2e-985f-84c4841fac71/edit/Classes"/>
+    </owl:Ontology>
+
+<!-- http://edamontology.org/operation_3443 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3443">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_input"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/data_Image"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_output"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/data_0006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <metadata:prefixIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operation_3443</metadata:prefixIRI>
+        <oboInOwl:hasDefinition>Image analysis is a process of extraction of meaningful quantitative or qualitative information from (digital) images, by means of digital image processing techniques, typically using computers.</oboInOwl:hasDefinition>
+        <oboInOwl:hasNarrowSynonym>General image analysis</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset>bioimaging</oboInOwl:inSubset>
+        <oboInOwl:inSubset>edam</oboInOwl:inSubset>
+        <oboInOwl:inSubset>operations</oboInOwl:inSubset>
+        <rdfs:label>Image analysis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/Image_analysis"/>
+    </owl:Class>
